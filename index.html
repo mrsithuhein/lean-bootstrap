@@ -1,13 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
 </head>
-<body>
-    <h1>Hello All</h1>
+
+<body class="m-5">
+    <!-- <div class="m-5">
+        <button class="btn btn-primary">Button</button>
+        <button class="btn btn-secondary">Button</button>
+        <button class="btn btn-danger disabled">Button</button>
+        <a href="#" class="btn btn-primary">Link</a>
+    </div>
+    <div class="m-5">
+        <button class="btn btn-outline-primary">Button</button>
+        <button class="btn btn-outline-secondary btn-lg">Button</button>
+        <button class="btn btn-outline-danger disabled btn-sm">Button</button>
+        <a href="#" class="btn btn-link link-success">Link</a>
+
+    </div>
+
+    <div class="m-5 btn-group">
+        <button class="btn btn-primary rounded-start-pill">
+            <i class="bi bi-person-fill"></i>
+        </button>
+        <button class="btn btn-primary active">
+            <i class="bi bi-pencil-fill"></i>
+        </button>
+        <button class="btn btn-primary rounded-end-pill">
+            <i class="bi bi-trash3-fill"></i>
+        </button>
+    </div>
+
+    <div class="m-5 btn-group">
+        <button class="btn btn-outline-primary ">
+            <i class="bi bi-person-fi<body class="m-5">ll"></i>
+        </button>
+        <button class="btn btn-outline-primary">
+            <i class="bi bi-pencil-fill"></i>
+        </button>
+        <button class="btn btn-outline-primary ">
+            <i class="bi bi-trash3-fill"></i>
+        </button>
+    </div>
+
+    <div class="card" style="width: 200px;">
+        <div class="card-body">
+            <h3 class="card-title">Hello Card</h3>
+            <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quis.
+            </p>
+        </div>
+        <img class="card-img-bottom" src="./images/poe-mamhe-thar-7.jpg" alt="">
+    </div>
+    <br><br>
+    <div class="alert alert-danger">
+        <i class="bi bi-exclamation-circle-fill"></i>
+        Something went wrong
+        <a class="alert-link" href="">See more</a>
+    </div>
+
+    <button class="btn btn-primary position-relative">
+        Notification<span
+            class="badge position-absolute bg-danger rounded-pill start-100 top-0 translate-middle">14</span>
+    </button>
+
+    <button class="ms-3 btn btn-primary position-relative">
+        Notification<span class=" p-2 position-absolute bg-danger rounded-pill start-100 top-0 translate-middle"></span>
+    </button>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li  class="breadcrumb-item" ><a href="#">Something</a></li>
+            <li  class="breadcrumb-item" ><a class="breadcrumb-item" href="#">Something</a></li>
+            <li class="breadcrumb-item acitve" aria-current="page">Something</li>
+        </ol>
+    </nav>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+    </nav>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Library</li>
+        </ol>
+    </nav>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Library</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+    </nav> -->
+
+    <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: '>'">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="">link</a></li>
+            <li class="breadcrumb-item"><a href="">link</a></li>
+            <li class="breadcrumb-item active" aria-current="page">page</li>
+        </ol>
+    </nav>
+
+
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-action">Test</li>
+        <li class="list-group-item list-group-item-action active">Test</li>
+        <li class="list-group-item list-group-item-action">Test</li>
+    </ul>
+
+    <ul class="list-group list-group-flush mb-4">
+        <li class="list-group-item list-group-item-action">Test</li>
+        <li class="list-group-item list-group-item-action">Test</li>
+        <li class="list-group-item list-group-item-action active">Test</li>
+    </ul>
+
+    <ul class="list-group mb-5">
+        <li class="list-group-item list-group-item-action"><a href="">Link</a></li>
+        <li class="list-group-item list-group-item-action"><a href="">Link</a></li>
+        <li class="list-group-item list-group-item-action"><a href="">Link</a></li>
+    </ul>
+
+    <div class="progress mb-3" style="height: 5px;">
+        <div class="progress-bar" style="width: 20%;"></div>
+    </div>
+    <div class="progress mb-3" style="height: 10px;">
+        <div class="progress-bar" style="width: 40%;"></div>
+    </div>
+    <div class="progress mb-3" style="height: 20px;">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width: 80%;"></div>
+    </div>
+
+    <div class="spinner-border text-success spinner-border"></div>
+
+    <button class="btn btn-primary">
+        <div class="spinner-border spinner-border-sm"></div>
+        Loading...
+    </button>
+
+    <button class="btn btn-primary">
+        <div class="spinner-grow spinner-grow-sm"></div>
+        Loading...
+    </button>
+
+    <div class="vh-100"></div>
 </body>
+
 </html>

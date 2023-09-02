@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+
+<body class="m-4">
+
+    <form class="mb-3">
+        <label class="form-label" for="name">Username</label>
+        <input class="form-control" type="text" id="name" required>
+        <div class="invalid-feedback">Fill your name</div>
+        <button class="btn btn-primary m-3" type="submit"> Submit</button>
+    </form>
+
+    <div class="mb-3">
+        <label class="form-label" for="address">Address</label>
+        <textarea class="form-control" name="" id="address" cols="30" rows="5"></textarea>
+        <p class="form-text">Fill your full text</p>
+    </div>
+
+    <select class="form-select mb-3" name="" id="">
+        <option value="">One</option>
+        <option value="">Two</option>
+        <option value="">Three</option>
+    </select>
+
+    <div class="mb-2 form-check form-switch">
+        <input class="form-check-input" id="html" type="checkbox">
+        <label class="form-check-label" for="html">HTML</label>
+    </div>
+    <div class="mb-2">
+        <input class="form-check-input" id="css" type="checkbox">
+        <label class="form-check-label" for="css">CSS</label>
+    </div>
+
+    <div>
+        <label class="form-label" for="myrange">Range</label>
+        <input id="myrange" type="range" class="form-range" max="10" min="0" step="2">
+    </div>
+
+    <div class="input-group">
+        <input class="form-control is-invalid" type="text" placeholder="input something" >
+        <button class="btn btn-primary">Search</button>
+        <div class="invalid-feedback"> please input</div>
+        <div class="valid-feedback">Ok</div>
+    </div>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
